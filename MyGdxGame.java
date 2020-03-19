@@ -86,7 +86,7 @@ public class MyGdxGame extends ApplicationAdapter{
 		
 		y.EtkinEngelleriBelirle((int)kamera.position.z);
 		if(y.CarpmaKontrolu((int)kamera.position.x, (int)kamera.position.z)) {
-		//	System.out.println("CARPTIN AMK");
+		//	System.out.println("CARPTIN");
 			
 		}
 		kamera.translate(-KameraYonY.x,-KameraYonY.y,-KameraYonY.z);
